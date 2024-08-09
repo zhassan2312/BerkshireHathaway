@@ -202,7 +202,6 @@ nav ul li a:hover {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    margin-bottom:64px;
 }
 .DefaultHeading h1{
     font-size:34px;
@@ -263,6 +262,11 @@ nav ul li a:hover {
     align-items: center;
     margin-bottom: 64px;
     gap:32px;
+}
+
+.subsidiaryContainer
+{
+    gap: 64px;
 }
 
 .subsidiaryCompaniesSearchParentContainer
@@ -482,6 +486,53 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     gap: 32px;
+    margin:0 auto;
+}
+
+.AdditionalLettersSection
+{
+    width:1152px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F3F3;
+    padding: 16px;
+    margin:0 auto;
+}
+
+.AdditionalLettersInformation
+{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+    width: 100%;
+}
+
+.AdditionalLettersInformation p
+{
+    display: inline-flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #394042;
+    width:80%;
+    margin: 0px;
+}
+
+.AdditionalLettersInformation button
+{
+    width: 25%;
+}
+
+.AdditionalLettersContainer
+{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
     margin:0 auto;
 }
 
