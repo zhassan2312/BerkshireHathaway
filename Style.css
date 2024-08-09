@@ -1,0 +1,527 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px ;
+    align-content: center;
+    margin:0 auto;
+    max-width: 1376px;
+    width: 100%;
+}
+
+.BerkshireLogo {
+    height: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    color: #6B7071;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #6B7071;
+}
+
+nav ul li a:hover {
+    color: #808F67;
+}
+
+.backGroundColorHeroSection {
+    height: auto;
+    background: linear-gradient(to bottom, #ffffff, #F2F4EF, #F2F4EF);
+}
+
+.heroSectionBodyText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #394042;
+    font-weight: normal;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding: 0;
+    width: 600px;
+}
+
+.heroSectionHeadingText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    color: #181818;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    width: 600px;
+}
+
+.heroSectionSecondaryButtonText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #455132;
+    font-weight: normal;
+    margin: 0; /* Remove default margin */
+    margin-top: 8px;
+}
+
+.button-container {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    gap: 24px; /* Optional: Add space between the div and the button */
+}
+
+.button-container button{
+    display: inline-flex;
+    flex:1;
+    max-width:288px;
+
+}
+
+
+
+.heroSectionHeadingColouredText {
+    color: #808F67;
+    font-weight: regular;
+}
+
+.heroSectionContainer {
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1184px; /* Adjust as needed */
+    width: 100%;
+    padding-top: 64px;
+    margin: 0 auto; /* Center the container */
+}
+
+.heroSectionContent {
+    max-width: 600px; /* Adjust as needed */
+}
+
+.heroSectionImage {
+    width: 500px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.messageSectionContainer {
+    display: flex;
+    align-items: stretch; /* Ensure both sides stretch to the same height */
+    justify-content: center; /* Center the container horizontally */
+    max-width: 1184px; /* Adjust as needed */
+    gap: 32px;
+    padding-top: 128px;
+    padding-left: 32px;
+    padding-right:32px;
+    margin: 0 auto; /* Center the container */
+}
+
+.messageSectionImages {
+    display: flex;
+    max-width: 500px;
+
+    flex-direction: column;
+    gap: 32px; /* Set the gap between images to 24px */
+    flex: 1; /* Allow the images section to grow and shrink */
+}
+
+.messageSectionImages img {
+    height: auto; /* Make images take the full height of their container */
+    object-fit:fill; /* Ensure images cover their container */
+    max-width: 500px;
+    display: inline-flex;
+}
+
+.messageSectionContent {
+    flex:1;
+    max-width: 652px; /* Adjust as needed */
+}
+
+.messageSectionHeadingText1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    color: #181818;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    width: 652px;
+}
+
+.messageSectionHeadingText2 {
+    color: #808F67;
+}
+
+.messageSectionBodyText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #394042;
+    font-weight: normal;
+    margin-bottom:0px;
+    margin-top: 32px;
+    padding: 0;
+    width: 652px;
+}
+
+.messageSectionButtons {
+    display: flex;
+    gap: 24px;
+    padding-top: 64px;
+    margin:0 auto;
+    max-width: 1184px;
+    align-items: center;
+    justify-content: center; /* Center the container horizontally */
+
+}
+
+.messageSectionButtons button{
+    flex:1;
+}
+
+.line-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #E6E7E7; /* You can change the color as needed */
+    margin: 0 auto; /* Center the line */
+    margin-bottom: 128px;
+    margin-top:128px;
+}
+
+.DefaultHeading
+{
+    width:1184px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:64px;
+}
+.DefaultHeading h1{
+    font-size:34px;
+    font-family: Poppins,sans-serif;
+    font-weight: normal;
+    color:#181818;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.DefaultHeadingSpan
+{
+    color:#808F67;
+}
+
+.DefaultHeading p{
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size:15px;
+    font-family: Poppins,sans-serif;
+    font-weight: normal;
+    color:#6B7071;
+}
+
+.search-container {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    width: 826px;
+    padding-left: 64px;
+    padding-right: 64px;
+    margin: 0 auto; /* Center the container */
+    background-color: #F2F3F3;
+    border:none;
+}
+
+.search-icon {
+    width: 16px; /* Adjust as needed */
+    height: 16px; /* Adjust as needed */
+}
+
+.subsidiarySearchBar {
+    width:100%;
+    height:48px; /* Adjust padding to make room for the icon */
+    font-size: 15px; /* Adjust as needed */
+    background-color: #F2F3F3;
+    border:none;
+    color: #9C9FA1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+.subsidiaryFilterOptions
+{
+    max-width: 1184px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+    gap:32px;
+}
+
+.subsidiaryCompaniesSearchParentContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subsidiarySortBar
+{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 194px;
+    margin:0 auto;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    border-color:#E6E7E7;
+    color:#6B7071;
+    height:48px;
+    padding-left: 16px;
+}
+
+.subsidiaryCardCompany {
+    border: 1px solid #CECFD0; /* Combine border properties */
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.subsidiaryCard {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+.subsidiaryInformation {
+    display: inline-flex;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+}
+
+.subsidiaryCardHeading {
+    font-size: 25px;
+    color: #808F67;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.subsidiaryCardBody {
+    font-size: 15px;
+    color: #394042;
+    font-family: Poppins, sans-serif;
+    font-weight: normal;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.subsidiaryCardImage {
+    width: 166px;
+    height: 91px;
+}
+
+
+
+.secondaryButton img {
+    width: 16px;
+}
+
+.subsidiaryCard button{
+    width: 25%;
+}
+
+.subsidiaryCompaniesContainer
+{
+    gap:16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.showMore-divider {
+    display: inline-flex;
+    width: 100%;
+    height: 1px;
+    background-color: #E6E7E7; /* You can change the color as needed */
+}
+
+.showMoreButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #808F67;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.showMoreSection {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    width: 100%;
+}
+
+.showMoreSectionContainer {
+    width: 1034px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    margin-top: 32px;
+}
+
+.LettersSection h2
+{
+    display: inline-flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+    color: #181818;
+    width:544px;
+    margin: 0px;
+}
+
+.LettersSection p
+{
+    display: inline-flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: #394042;
+    width:544px;
+    margin: 0px;
+}
+
+.LettersSection
+{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin:0 auto;
+}
+
+.LettersContainer
+{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    padding:16px;
+    background-color: #F2F3F3;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.LettersContainer p
+{
+    display: inline-flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: #394042;
+    width:544px;
+    margin: 0px;
+}
+
+.LettersSection button
+{
+    width:100%;
+}
+
+.LettersSectionButtonContainer
+{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin:0 auto;
+    width: 100%;
+}
+
+.LettersHorizontalContainer
+{
+    width: 1184px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+}
+
+.LettersVerticalContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+.primaryButton {
+    display: inline-flex; /* Change to inline-flex to prevent taking the whole line */
+    align-items: center;
+    justify-content: center;
+    gap: 16px; /* Space between icon and text */
+    padding: 12px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: #fff;
+    background-color: #455132;
+    border: none;
+    cursor: pointer;
+}
+
+.secondaryButton {
+    display: inline-flex; /* Change to inline-flex to prevent taking the whole line */
+    align-items: center;
+    justify-content: center;
+    gap: 16px; /* Space between icon and text */
+    padding: 12px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    cursor: pointer;
+    color: #455132;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #455132;
+}
+
+
