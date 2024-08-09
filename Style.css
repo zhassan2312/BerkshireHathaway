@@ -9,6 +9,17 @@ header {
     width: 100%;
 }
 
+.BodyContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 128px;
+    margin:0 auto;
+    width: 100%;
+}
+
 .BerkshireLogo {
     height: 24px;
 }
@@ -43,6 +54,7 @@ nav ul li a:hover {
 
 .backGroundColorHeroSection {
     height: auto;
+    width: 100%;
     background: linear-gradient(to bottom, #ffffff, #F2F4EF, #F2F4EF);
 }
 
@@ -99,8 +111,7 @@ nav ul li a:hover {
 .heroSectionContainer {
     align-items: center;
     justify-content: space-between;
-    max-width: 1184px; /* Adjust as needed */
-    width: 100%;
+    width: 1184px; /* Adjust as needed */
     padding-top: 64px;
     margin: 0 auto; /* Center the container */
 }
@@ -116,35 +127,33 @@ nav ul li a:hover {
 
 .messageSectionContainer {
     display: flex;
-    align-items: stretch; /* Ensure both sides stretch to the same height */
-    justify-content: center; /* Center the container horizontally */
-    max-width: 1184px; /* Adjust as needed */
+    align-items: center; /* Ensure both sides stretch to the same height */
+    justify-content: space-between; /* Center the container horizontally */
+    width: 1184px; /* Adjust as needed */
     gap: 32px;
-    padding-top: 128px;
-    padding-left: 32px;
-    padding-right:32px;
     margin: 0 auto; /* Center the container */
 }
 
 .messageSectionImages {
-    display: flex;
-    max-width: 500px;
+    display: inline-flex;
+    width: 500px;
 
     flex-direction: column;
     gap: 32px; /* Set the gap between images to 24px */
-    flex: 1; /* Allow the images section to grow and shrink */
 }
 
 .messageSectionImages img {
-    height: auto; /* Make images take the full height of their container */
+    height: 386px; /* Make images take the full height of their container */
     object-fit:fill; /* Ensure images cover their container */
-    max-width: 500px;
+    width: 500px;
     display: inline-flex;
 }
 
 .messageSectionContent {
-    flex:1;
-    max-width: 652px; /* Adjust as needed */
+    width: 652px; /* Adjust as needed */
+    gap:32px;
+    display: inline-flex;
+    flex-direction: column;
 }
 
 .messageSectionHeadingText1 {
@@ -152,8 +161,8 @@ nav ul li a:hover {
     font-size: 34px;
     color: #181818;
     font-weight: normal;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     width: 652px;
 }
 
@@ -167,7 +176,7 @@ nav ul li a:hover {
     color: #394042;
     font-weight: normal;
     margin-bottom:0px;
-    margin-top: 32px;
+    margin-top: 0px;
     padding: 0;
     width: 652px;
 }
@@ -175,9 +184,8 @@ nav ul li a:hover {
 .messageSectionButtons {
     display: flex;
     gap: 24px;
-    padding-top: 64px;
     margin:0 auto;
-    max-width: 1184px;
+    width: 1184px;
     align-items: center;
     justify-content: center; /* Center the container horizontally */
 
@@ -187,13 +195,20 @@ nav ul li a:hover {
     flex:1;
 }
 
+.messageSectionParentContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
 .line-divider {
     width: 100%;
     height: 1px;
     background-color: #E6E7E7; /* You can change the color as needed */
     margin: 0 auto; /* Center the line */
-    margin-bottom: 128px;
-    margin-top:128px;
 }
 
 .DefaultHeading
@@ -230,9 +245,9 @@ nav ul li a:hover {
     position: relative;
     display: inline-flex;
     align-items: center;
-    width: 826px;
-    padding-left: 64px;
-    padding-right: 64px;
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
     margin: 0 auto; /* Center the container */
     background-color: #F2F3F3;
     border:none;
@@ -256,25 +271,30 @@ nav ul li a:hover {
 
 .subsidiaryFilterOptions
 {
-    max-width: 1184px;
+    width: 1184px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 64px;
     gap:32px;
+}
+
+.subsidiaryParentContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
 }
 
 .subsidiaryContainer
 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 64px;
 }
 
-.subsidiaryCompaniesSearchParentContainer
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .subsidiarySortBar
 {
@@ -393,7 +413,6 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     margin:0 auto;
-    margin-top: 32px;
 }
 
 .LettersSection h2
@@ -429,6 +448,15 @@ nav ul li a:hover {
     margin:0 auto;
 }
 
+.LettersSectionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    margin:0 auto;
+}
+
 .LettersContainer
 {
     display: inline-flex;
@@ -447,7 +475,6 @@ nav ul li a:hover {
     display: inline-flex;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    font-weight: normal;
     color: #394042;
     width:544px;
     margin: 0px;
@@ -515,7 +542,6 @@ nav ul li a:hover {
     display: inline-flex;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    font-weight: normal;
     color: #394042;
     width:80%;
     margin: 0px;
@@ -535,6 +561,74 @@ nav ul li a:hover {
     gap: 16px;
     margin:0 auto;
 }
+
+.LettersSectionSemiButtonContainer
+{
+    width:100%;
+    display: inline-flex;
+    flex-direction: column;
+    gap:2px;
+}
+
+.LettersSectionSemiButtonContainer p
+{
+    width:256px;
+    display: inline-flex;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+
+.AdditionalCompaniesSectionContainer
+{
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.AdditionalCompaniesImage
+{
+    height:897px;
+    width: 576px;
+    display: inline-flex;
+}
+
+.AdditionalCompaniesImage img
+{
+    width: 100%;
+    height:100%;
+    object-fit: fill;
+}
+
+
+.AdditionalCompaniesSection
+{
+    width: 576px;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.AdditionalCompaniesSection p
+{
+    display: inline-flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #394042;
+    margin: 0px;
+}
+
+
+
+
+
+
+
 
 
 
