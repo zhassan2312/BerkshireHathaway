@@ -1,13 +1,6 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 32px ;
-    align-content: center;
-    margin:0 auto;
-    max-width: 1376px;
-    width: 100%;
-}
+
+
+
 
 .BodyContainer
 {
@@ -24,185 +17,10 @@ header {
     height: 24px;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    color: #6B7071;
-    gap: 16px;
-    margin: 0;
-    padding: 0;
-    font-size: 18px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    color: #6B7071;
-}
-
-nav ul li a:hover {
-    color: #808F67;
-}
-
-.backGroundColorHeroSection {
-    height: auto;
-    width: 100%;
-    background: linear-gradient(to bottom, #ffffff, #F2F4EF, #F2F4EF);
-}
-
-.heroSectionBodyText {
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    color: #394042;
-    font-weight: normal;
-    margin-top: 48px;
-    margin-bottom: 48px;
-    padding: 0;
-    width: 600px;
-}
-
-.heroSectionHeadingText {
-    font-family: 'Poppins', sans-serif;
-    font-size: 34px;
-    color: #181818;
-    font-weight: normal;
-    margin: 0;
-    padding: 0;
-    width: 600px;
-}
-
-.heroSectionSecondaryButtonText {
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    color: #455132;
-    font-weight: normal;
-    margin: 0; /* Remove default margin */
-    margin-top: 8px;
-}
-
-.button-container {
-    display: flex;
-    align-items: flex-start; /* Align items at the top */
-    gap: 24px; /* Optional: Add space between the div and the button */
-}
-
-.button-container button{
-    display: inline-flex;
-    flex:1;
-    max-width:288px;
-
-}
 
 
 
-.heroSectionHeadingColouredText {
-    color: #808F67;
-    font-weight: regular;
-}
 
-.heroSectionContainer {
-    align-items: center;
-    justify-content: space-between;
-    width: 1184px; /* Adjust as needed */
-    padding-top: 64px;
-    margin: 0 auto; /* Center the container */
-}
-
-.heroSectionContent {
-    max-width: 600px; /* Adjust as needed */
-}
-
-.heroSectionImage {
-    width: 500px; /* Adjust as needed */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.messageSectionContainer {
-    display: flex;
-    align-items: center; /* Ensure both sides stretch to the same height */
-    justify-content: space-between; /* Center the container horizontally */
-    width: 1184px; /* Adjust as needed */
-    gap: 32px;
-    margin: 0 auto; /* Center the container */
-}
-
-.messageSectionImages {
-    display: inline-flex;
-    width: 500px;
-
-    flex-direction: column;
-    gap: 32px; /* Set the gap between images to 24px */
-}
-
-.messageSectionImages img {
-    height: 386px; /* Make images take the full height of their container */
-    object-fit:fill; /* Ensure images cover their container */
-    width: 500px;
-    display: inline-flex;
-}
-
-.messageSectionContent {
-    width: 652px; /* Adjust as needed */
-    gap:32px;
-    display: inline-flex;
-    flex-direction: column;
-}
-
-.messageSectionHeadingText1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 34px;
-    color: #181818;
-    font-weight: normal;
-    margin: 0px;
-    padding: 0px;
-    width: 652px;
-}
-
-.messageSectionHeadingText2 {
-    color: #808F67;
-}
-
-.messageSectionBodyText {
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    color: #394042;
-    font-weight: normal;
-    margin-bottom:0px;
-    margin-top: 0px;
-    padding: 0;
-    width: 652px;
-}
-
-.messageSectionButtons {
-    display: flex;
-    gap: 24px;
-    margin:0 auto;
-    width: 1184px;
-    align-items: center;
-    justify-content: center; /* Center the container horizontally */
-
-}
-
-.messageSectionButtons button{
-    flex:1;
-}
-
-.messageSectionParentContainer
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 64px;
-}
 
 .line-divider {
     width: 100%;
@@ -213,10 +31,13 @@ nav ul li a:hover {
 
 .DefaultHeading
 {
-    width:1184px;
+    max-width:1440px;
+    padding:0 128px 0 128px;
+    display: flex;
+    box-sizing: border-box;
     margin: 0 auto;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 .DefaultHeading h1{
     font-size:34px;
@@ -241,450 +62,15 @@ nav ul li a:hover {
     color:#6B7071;
 }
 
-.search-container {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    width: 100%;
-    padding-left: 32px;
-    padding-right: 32px;
-    margin: 0 auto; /* Center the container */
-    background-color: #F2F3F3;
-    border:none;
-}
-
-.search-icon {
-    width: 16px; /* Adjust as needed */
-    height: 16px; /* Adjust as needed */
-}
-
-.subsidiarySearchBar {
-    width:100%;
-    height:48px; /* Adjust padding to make room for the icon */
-    font-size: 15px; /* Adjust as needed */
-    background-color: #F2F3F3;
-    border:none;
-    color: #9C9FA1;
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-}
-
-.subsidiaryFilterOptions
-{
-    width: 1184px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap:32px;
-}
-
-.subsidiaryParentContainer
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-}
-
-.subsidiaryContainer
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 64px;
-}
-
-
-.subsidiarySortBar
-{
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 194px;
-    margin:0 auto;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-    border-color:#E6E7E7;
-    color:#6B7071;
-    height:48px;
-    padding-left: 16px;
-}
-
-.subsidiaryCardCompany {
-    border: 1px solid #CECFD0; /* Combine border properties */
-    padding: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1000px;
-    margin: 0 auto;
-}
-
-.subsidiaryCard {
-    display: inline-flex;
-    align-items: center;
-    width: 100%;
-}
-
-.subsidiaryInformation {
-    display: inline-flex;
-    align-items: center;
-    gap: 32px;
-    width: 100%;
-}
-
-.subsidiaryCardHeading {
-    font-size: 25px;
-    color: #808F67;
-    font-family: Poppins, sans-serif;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.subsidiaryCardBody {
-    font-size: 15px;
-    color: #394042;
-    font-family: Poppins, sans-serif;
-    font-weight: normal;
-    margin-top: 8px;
-    margin-bottom: 0;
-}
-
-.subsidiaryCardImage {
-    width: 166px;
-    height: 91px;
-}
 
 
 
-.secondaryButton img {
-    width: 16px;
-}
-
-.subsidiaryCard button{
-    width: 25%;
-}
-
-.subsidiaryCompaniesContainer
-{
-    gap:16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.showMore-divider {
-    display: inline-flex;
-    width: 100%;
-    height: 1px;
-    background-color: #E6E7E7; /* You can change the color as needed */
-}
-
-.showMoreButton {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    color: #808F67;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    white-space: nowrap; /* Prevents text from wrapping */
-}
-
-.showMoreSection {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-    width: 100%;
-}
-
-.showMoreSectionContainer {
-    width: 1034px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin:0 auto;
-}
-
-.LettersSection h2
-{
-    display: inline-flex;
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    font-weight: normal;
-    font-style: italic;
-    color: #181818;
-    width:544px;
-    margin: 0px;
-}
-
-.LettersSection p
-{
-    display: inline-flex;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-    color: #394042;
-    width:544px;
-    margin: 0px;
-}
-
-.LettersSection
-{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    margin:0 auto;
-}
-
-.LettersSectionContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 64px;
-    margin:0 auto;
-}
-
-.LettersContainer
-{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin:0 auto;
-    padding:16px;
-    background-color: #F2F3F3;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-.LettersContainer p
-{
-    display: inline-flex;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    color: #394042;
-    width:544px;
-    margin: 0px;
-}
-
-.LettersSection button
-{
-    width:100%;
-}
-
-.LettersSectionButtonContainer
-{
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    margin:0 auto;
-    width: 100%;
-}
-
-.LettersHorizontalContainer
-{
-    width: 1184px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin:0 auto;
-}
-
-.LettersVerticalContainer
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-    margin:0 auto;
-}
-
-.AdditionalLettersSection
-{
-    width:1152px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #F2F3F3;
-    padding: 16px;
-    margin:0 auto;
-}
-
-.AdditionalLettersInformation
-{
-    display: inline-flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 32px;
-    width: 100%;
-}
-
-.AdditionalLettersInformation p
-{
-    display: inline-flex;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    color: #394042;
-    width:80%;
-    margin: 0px;
-}
-
-.AdditionalLettersInformation button
-{
-    width: 25%;
-}
-
-.AdditionalLettersContainer
-{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    margin:0 auto;
-}
-
-.LettersSectionSemiButtonContainer
-{
-    width:100%;
-    display: inline-flex;
-    flex-direction: column;
-    gap:2px;
-}
-
-.LettersSectionSemiButtonContainer p
-{
-    width:256px;
-    display: inline-flex;
-    margin: 0px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-}
-
-
-.AdditionalCompaniesSectionContainer
-{
-    gap: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.AdditionalCompaniesImage
-{
-    height:897px;
-    width: 576px;
-    display: inline-flex;
-}
-
-.AdditionalCompaniesImage img
-{
-    width: 100%;
-    height:100%;
-    object-fit: fill;
-}
-
-
-.AdditionalCompaniesSection
-{
-    width: 576px;
-    display: flex;
-    gap: 32px;
-    flex-direction: column;
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
-
-.AdditionalCompaniesSection p
-{
-    display: inline-flex;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    color: #394042;
-    margin: 0px;
-}
-
-.contactLeftSectionContainer
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    margin:0 auto;
-}
-
-.contactLeftSection
-{
-    width:400px;
-    gap:4px;
-    flex-direction: column;
-    display: inline-flex;
-}
-
-.contactLeftSection h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    font-weight: normal;
-    color: #808F67;
-    margin: 0px;
-}
-
-.contactLeftSection p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    color: #394042;
-    margin: 0px;
-}
-
-.contactSection {
-    gap: 32px;
-    flex-direction: row;
-    width: 1184px;
-    display: flex;
-    align-items: center;
-}
-
-.contactRightSection {
-    width: 100%;
-    height: 100%;
-    display: inline-flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.contactSectionContainer {
-    gap: 64px;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .input-container {
-    display: inline-flex;
+    display: flex;
     background-color: #F2F3F3;
-    width: 830px;
+    max-width: 830px;
+    width: 100%;
 }
 
 .inputBar {
@@ -707,75 +93,6 @@ nav ul li a:hover {
 }
 
 
-.footerContainer
-{
-    background-color: #181818;
-    width: 100%;
-}
-
-.footerSection
-{
-    gap:32px;
-    flex-direction: column;
-    display: flex;
-}
-
-.footerSection h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    font-weight: normal;
-    color: #fff;
-    margin: 0px;
-}
-
-.footerSubSection
-{
-    gap:8px;
-    flex-direction: column;
-    display: flex;
-}
-
-.footerSubSection p
-{
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    color: #CECFD0;
-    margin: 0px;
-}
-
-.footerSubContainer
-{
-    width:1440px;
-
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 64px;
-    padding-bottom: 64px;
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    justify-content: space-between;
-}
-
-.footerSubSectionHeading
-{
-    gap:32px;
-    display: inline-flex;
-    flex-direction: row;
-}
-
-.footerSubSectionHeading h2
-{
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    font-weight: normal;
-    color: #fff;
-    margin: 0px;
-    text-decoration: underline;
-}
-
-
 
 
 
@@ -787,7 +104,7 @@ nav ul li a:hover {
 
 
 .primaryButton {
-    display: inline-flex; /* Change to inline-flex to prevent taking the whole line */
+    display: flex; /* Change to inline-flex to prevent taking the whole line */
     align-items: center;
     justify-content: center;
     gap: 16px; /* Space between icon and text */
@@ -802,7 +119,7 @@ nav ul li a:hover {
 }
 
 .secondaryButton {
-    display: inline-flex; /* Change to inline-flex to prevent taking the whole line */
+    display: flex; /* Change to inline-flex to prevent taking the whole line */
     align-items: center;
     justify-content: center;
     gap: 16px; /* Space between icon and text */
@@ -816,5 +133,6 @@ nav ul li a:hover {
     border: none;
     border-bottom: 1px solid #455132;
 }
+
 
 

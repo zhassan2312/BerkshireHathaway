@@ -1,0 +1,82 @@
+
+.messageSectionContainer {
+    display: flex;
+    align-items: center; /* Ensure both sides stretch to the same height */
+    justify-content: space-between; /* Center the container horizontally */
+    max-width: 1440px; /* Adjust as needed */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    padding: 0 128px 0 128px; /* Add padding to the container */
+    gap: 32px;
+    margin: 0 auto; /* Center the container */
+}
+
+.messageSectionImages {
+    display: flex;
+    max-width: 500px;
+    height:100%;
+    flex-direction: column;
+    gap: 32px; /* Set the gap between images to 24px */
+}
+
+.messageSectionImages img {
+    object-fit:fill; /* Ensure images cover their container */
+    max-width: 500px;
+}
+
+.messageSectionContent {
+    width: 100%; /* Adjust as needed */
+    gap:32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.messageSectionContent h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    color: #181818;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+
+}
+
+.messageSectionContent h1 span {
+    color: #808F67;
+}
+
+.messageSectionContent p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #394042;
+    font-weight: normal;
+    margin-bottom:0px;
+    margin-top: 0px;
+    padding: 0;
+    width: 100%;
+}
+
+.messageSectionButtons {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    max-width: 1440px;
+    box-sizing: border-box;
+    padding:0 128px 0 128px;
+    width: 100%;
+
+}
+
+.messageSectionButtons button{
+
+    flex:1;
+}
+
+.messageSectionParentContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}

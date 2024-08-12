@@ -1,0 +1,73 @@
+
+.AdditionalCompaniesSectionContainer
+{
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 128px 0 128px;
+    box-sizing: border-box;
+}
+
+.AdditionalCompaniesImage
+{
+    height:897px;
+    width: 100%;
+    display: flex;
+}
+
+.AdditionalCompaniesImage img
+{
+    width: 100%;
+    height:100%;
+    object-fit: fill;
+}
+
+
+
+.AdditionalCompaniesSection
+{
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.AdditionalCompaniesSection p
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #394042;
+    margin: 0px;
+}
+
+.AdditionalCompaniesSection button{
+    width:100%;
+}
+
+.activewearCollection
+{
+    width:75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.threeCompany
+{
+   
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}

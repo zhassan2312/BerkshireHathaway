@@ -1,0 +1,95 @@
+
+.backGroundColorHeroSection 
+{
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to bottom, #ffffff, #F2F4EF, #F2F4EF);
+}
+
+.heroSectionBodyText 
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #394042;
+    font-weight: normal;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding: 0;
+}
+
+.heroSectionHeadingText 
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    color: #181818;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.heroSectionSecondaryButtonText 
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    width:100%;
+    color: #455132;
+    font-weight: normal;
+    margin: 0; /* Remove default margin */
+    margin-top: 8px;
+}
+
+.button-container {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    gap: 24px; /* Optional: Add space between the div and the button */
+
+}
+
+.button-container button
+{
+    display: flex;
+    flex:1;
+}
+
+.secondaryButtonContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.secondaryButtonContainer button
+{
+    display: flex;
+    width: 100%;
+}
+
+
+.heroSectionHeadingColouredText {
+    color: #808F67;
+    font-weight: normal;
+}
+
+.heroSectionContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1440px; /* Adjust as needed */
+    padding-top: 64px;
+    gap:16px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    padding: 0 128px 0 128px;
+    margin: 0 auto; /* Center the container */
+}
+
+.heroSectionContent {
+    width: 100%; /* Adjust as needed */
+}
+
+.heroSectionImage {
+    max-width: 500px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}

@@ -1,0 +1,170 @@
+
+.LettersSection h2
+{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+    color: #181818;
+    width:100%;
+    margin: 0px;
+}
+
+.LettersSection p
+{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: #394042;
+    width:100%;
+    margin: 0px;
+}
+
+.LettersSection
+{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin:0 auto;
+}
+
+.LettersSectionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    margin:0 auto;
+}
+
+.LettersContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0 auto;
+    width: 100%;
+    padding:16px;
+    background-color: #F2F3F3;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.LettersContainer p
+{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #394042;
+    margin: 0px;
+}
+
+.LettersSection button
+{
+    width:100%;
+}
+
+.LettersSectionButtonContainer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin:0 auto;
+    width: 100%;
+}
+
+.LettersHorizontalContainer
+{
+    max-width: 1440px;
+    width:100%;
+    padding: 0 128px 0 128px;
+    box-sizing: border-box;
+    gap:32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+}
+
+.LettersVerticalContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    margin:0 auto;
+}
+
+.AdditionalLettersSection
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F3F3;
+    padding: 16px;
+    box-sizing: border-box;
+    margin:0 auto;
+}
+
+.AdditionalLettersInformation
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.AdditionalLettersInformation p
+{
+    display: flex;
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #394042;
+    margin: 0px;
+}
+
+.AdditionalLettersInformation button
+{
+    width: 25%;
+}
+
+.AdditionalLettersContainer
+{
+    max-width: 1440px;
+    width:100%;
+    padding: 0 128px 0 128px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin:0 auto;
+}
+
+.LettersSectionSemiButtonContainer
+{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+}
+
+.LettersSectionSemiButtonContainer p
+{
+    display: flex;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
