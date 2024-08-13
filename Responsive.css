@@ -1,4 +1,317 @@
-@media screen and (min-width: 1024px)
+/* Existing media query for max-width: 1024px */
+@media (max-width: 1024px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #F2F3F3;
+        position: absolute;
+        top: 64px; /* Adjust based on your header height */
+        left: 0;
+        padding: 16px;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+    .subsidiaryCompaniesContainer,
+    .subsidiaryFilterOptions,
+    .AdditionalLettersContainer,
+    .heroSectionContainer,
+    .DefaultHeading {
+        padding: 0 64px;
+    }
+
+    .footerSubContainer {
+        width: 100%;
+        max-width: 1024px;
+        box-sizing: border-box;
+        padding: 64px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 16px;
+    }
+
+
+    .messageSectionImages img {
+        object-fit: fill; /* Ensure images cover their container */
+        max-width: 100%; /* Ensure images do not exceed their container */
+        width: 100%; /* Make images responsive */
+    }
+
+    .messageSectionParentContainer {
+        width: 100%; /* Ensure content takes full width */
+        padding: 0 64px; /* Add padding to the content */
+        box-sizing: border-box; /* Ensure padding is included in the width */
+        max-width: 1024px;
+    }
+
+    .messageSectionContainer {
+        flex-direction: column; /* Change to column layout */
+        gap: 32px;
+        width: 100%;
+    }
+
+    .messageSectionImages {
+        display: flex;
+        justify-content: stretch;
+        max-width: 100%;
+        flex-direction: row; /* Change to row layout */
+        gap: 16px; /* Adjust gap between images */
+        overflow: hidden;
+    }
+
+    .messageSectionContent {
+        width: 100%; /* Ensure content takes full width */
+    }
+
+
+    .heroSectionContainer {
+        flex-direction: column;
+        padding: 0 64px;
+    }
+
+    .heroSectionImage {
+        order: 1; /* Ensure the image is below the content */
+    }
+
+    .heroSectionContent {
+        order: 0; /* Ensure the content is above the image */
+    }
+
+    .LettersHorizontalContainer
 {
+    max-width: 1440px;
+    width:100%;
+    padding: 0 64px;
+    box-sizing: border-box;
+    gap:32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+}
+
+
+.AdditionalCompaniesSectionContainer
+{
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 64px;
+    box-sizing: border-box;
+}
+
+.contactLeftSection
+{
+    justify-content: space-between;
+}
+.contactSection {
+    gap: 32px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1440px;
+    box-sizing: border-box;
+    padding:0 64px;
+}
+
+
+.contactLeftSectionContainer
+{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    margin:0 auto;
+}
+
+
+.subsidiaryInformation {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+}
+
+
+.subsidiaryCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+}
+
+/* New media query for widths between 1025px and 1440px */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .subsidiaryCompaniesContainer,
+    .subsidiaryFilterOptions,
+    .messageSectionParentContainer,
+    .LettersHorizontalContainer,
+    .AdditionalLettersContainer,
+    .heroSectionContainer,
+    .contactSection,
+    .AdditionalCompaniesSectionContainer,
+    .DefaultHeading {
+        padding: 0 64px;
+    }
+
+    .footerSubContainer {
+        width: 100%;
+        max-width: 1440px;
+        box-sizing: border-box;
+        padding: 64px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 16px;
+    }
+
+    .heroSectionContainer {
+        flex-direction: column;
+    }
+
+   
+}
+
+/* Existing media query for min-width: 1441px */
+@media (min-width: 1441px) {
+    .subsidiaryCompaniesContainer {
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 1024px;
+        padding: 0 128px;
+    }
+
+    .subsidiaryFilterOptions {
+        max-width: 1440px;
+        width: 100%;
+        padding: 0 128px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .messageSectionParentContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 64px;
+        max-width: 1440px; /* Adjust as needed */
+        box-sizing: border-box; /* Ensure padding is included in the width */
+        padding: 0 128px; /* Add padding to the container */
+    }
+
+    .LettersHorizontalContainer {
+        max-width: 1440px;
+        width: 100%;
+        padding: 0 128px;
+        box-sizing: border-box;
+        gap: 32px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .AdditionalLettersContainer {
+        max-width: 1440px;
+        width: 100%;
+        padding: 0 128px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        margin: 0 auto;
+    }
+
+    .heroSectionContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
     
+    justify-content: space-between;
+    max-width: 1440px; /* Adjust as needed */
+    padding-top: 64px;
+    gap:16px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    padding: 0 128px;
+    margin: 0 auto; /* Center the container */
+}
+
+    .contactSection {
+        gap: 32px;
+        width: 100%;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        max-width: 1440px;
+        box-sizing: border-box;
+        padding: 0 128px;
+    }
+
+    .AdditionalCompaniesSectionContainer {
+        gap: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1440px;
+        padding: 0 128px;
+        box-sizing: border-box;
+    }
+
+    .DefaultHeading {
+        max-width: 1440px;
+        padding: 0 128px;
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .footerSection h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        font-weight: normal;
+        color: #fff;
+        margin: 0px;
+    }
+
+    .footerSubSection p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #CECFD0;
+    margin: 0px;
+}
 }

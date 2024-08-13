@@ -75,13 +75,12 @@
 .heroSectionContainer {
     display: flex;
     align-items: center;
-    flex-direction: row;
+    
     justify-content: space-between;
     max-width: 1440px; /* Adjust as needed */
     padding-top: 64px;
     gap:16px;
     box-sizing: border-box; /* Ensure padding is included in the width */
-    padding: 0 128px 0 128px;
     margin: 0 auto; /* Center the container */
 }
 
@@ -91,5 +90,6 @@
 
 .heroSectionImage {
     max-width: 500px; /* Adjust as needed */
+    width:100%;
     height: auto; /* Maintain aspect ratio */
 }

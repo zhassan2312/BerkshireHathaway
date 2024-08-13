@@ -88,7 +88,6 @@
     box-sizing: border-box;
     gap:32px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin:0 auto;
@@ -136,7 +135,9 @@
 
 .AdditionalLettersInformation button
 {
-    width: 25%;
+    width: 30%;
+    padding:8px 16px;
+    box-sizing: border-box;
 }
 
 .AdditionalLettersContainer

@@ -19,6 +19,12 @@
         <link rel="stylesheet" href="Header.css">
         <link rel="stylesheet" href="Responsive.css">
         <link rel="stylesheet" href="HeroSection.css">
+        <script>
+            function toggleMenu() {
+                const nav = document.querySelector('nav ul');
+                nav.classList.toggle('show');
+            }
+            </script>
     </head>
 
     <body>
@@ -29,27 +35,29 @@
         <div class="backGroundColorHeroSection">
             
             <div class="headerContainer">
-                <header>
-                    <img class="BerkshireLogo" src="Assets/BerkshireLogo.png" alt="BerkshireLogo">
-                    <!-- Logo -->
-                    <div>
-                        <nav>
-                            <ul>
-                                <li><a style="font-weight:bold; color: #181818;" href="#Home">Home</a></li>
-                                <li><a href="#News">News</a></li>
-                                <li><a href="#Links">Links</a></li>
-                                <li><a href="#Letters">Letters</a></li>
-                                <li><a href="#Reports">Reports</a></li> 
-                                <li><a href="#About">About</a></li> 
-                                <li><a href="#Information">Information</a></li> 
-                            </ul>
-                        </nav>
-                    </div>
-                    <!-- Navigation links -->
-
-                </header>
-                <!-- Header ends Here -->
+    <header>
+        <img class="BerkshireLogo" src="Assets/BerkshireLogo.png" alt="BerkshireLogo">
+        <!-- Logo -->
+        <div class="nav-container">
+            <nav>
+                <ul>
+                    <li><a style="font-weight:bold; color: #181818;" href="#Home">Home</a></li>
+                    <li><a href="#News">News</a></li>
+                    <li><a href="#Links">Links</a></li>
+                    <li><a href="#Letters">Letters</a></li>
+                    <li><a href="#Reports">Reports</a></li> 
+                    <li><a href="#About">About</a></li> 
+                    <li><a href="#Information">Information</a></li> 
+                </ul>
+            </nav>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                &#9776; <!-- Unicode for hamburger icon -->
             </div>
+        </div>
+        <!-- Navigation links -->
+    </header>
+    <!-- Header ends Here -->
+</div>
 
             <div class="heroSectionContainer">
                 <div class="heroSectionContent">
